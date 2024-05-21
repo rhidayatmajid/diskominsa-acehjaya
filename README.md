@@ -26,7 +26,7 @@ List of `awesome README Profile` categories mentioned below
 
 Link : https://awesome-github-readme-profile.netlify.app
 
-<a href="https://awesome-github-readme-profile.netlify.app"><img src="https://raw.githubusercontent.com/elangosundar/awesome-README-templates/master/awesome-github-profile.png" alt="Awesome README Templates" /></a>
+<a href="https://awesome-github-readme-profile.netlify.app"><img src="[https://raw.githubusercontent.com/elangosundar/awesome-README-templates/master/awesome-github-profile.png](https://github.com/rhidayatmajid/diskominsa-acehjaya/blob/master/peta-ajay.png?raw=true)" alt="Awesome README Templates" /></a>
 
 
 # Contribute
