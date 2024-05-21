@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafik dan Peta Pertumbuhan Penduduk Aceh Jaya</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+        
+        #controls {
+            margin: 20px 0;
+        }
+        
+        #chartContainer {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Peta Kabupaten Aceh Jaya</h1>
+    <div id="controls">
+        <label for="kecamatanSelect">Pilih Kecamatan:</label>
+        <select id="kecamatanSelect" onchange="zoomToKecamatan()">
+            <option value="Aceh Jaya">--Pilih Kecamatan--</option>
+            <option value="Teunom">Teunom</option>
+            <option value="Krueng Sabee">Krueng Sabee</option>
+            <option value="Jaya">Jaya</option>
+            <option value="Setia Bakti">Setia Bakti</option>
+            <option value="Sampoiniet">Sampoiniet</option>
+            <option value="Panga">Panga</option>
+            <option value="Darul Hikmah">Darul Hikmah</option>
+            <option value="Indra Jaya">Indra Jaya</option>
+            <option value="Pasie Raya">Pasie Raya</option>
+        </select>
+    </div>
+    <div id="map"></div>
+    <h1>Grafik Pertumbuhan Penduduk Aceh Jaya (Tahun 2019-2023)</h1>
+    <div id="chartContainer">
+        <canvas id="populationChart" width="400" height="200"></canvas>
+        <script src="script.js"></script>
+</body>
+
+</html>
