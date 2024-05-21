@@ -12,9 +12,7 @@
 <p align="center"><i>Loved the project? Please visit our <a href="#">Website</a></i></p>
 <br>
 
-If you are intersted, will create a PR for to add your `README` profile here.
-
-If you like this Repo, Please click the :star:
+If you like this `Repo`, Please click the :star:
 
 ## Contents
   - [Github README PROFILE CATEGORY](#github-readme-profile-category)
